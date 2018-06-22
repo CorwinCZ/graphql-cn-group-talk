@@ -218,7 +218,7 @@ export default class Presentation extends Component {
           </Heading>
           <List>
             <Appear>
-              <ListItem size={30}>Bigger complexity for juniors</ListItem>
+              <ListItem size={30}>Bigger complexity for juniors ?</ListItem>
             </Appear>
             <Appear>
               <ListItem size={30}>More work beforehand</ListItem>

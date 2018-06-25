@@ -58,7 +58,10 @@ export default class Presentation extends Component {
           <Heading size={1} textColor="secondary">
             DEMO
           </Heading>
-          <Link href="https://eu1.prisma.sh/petr-canek-398ab8/interviewme-test/dev">
+          <Link
+            href="https://eu1.prisma.sh/petr-canek-398ab8/interviewme-test/dev"
+            target="_blank"
+          >
             Playground
           </Link>
         </Slide>
@@ -264,7 +267,10 @@ export default class Presentation extends Component {
             http://cn-graphql-in-2018.surge.sh
           </Link>
           <br />
-          <Link href="https://github.com/CorwinCZ/graphql-cn-group-talk">
+          <Link
+            href="https://github.com/CorwinCZ/graphql-cn-group-talk"
+            taget="_blank"
+          >
             https://github.com/CorwinCZ/graphql-cn-group-talk
           </Link>
         </Slide>

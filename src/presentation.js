@@ -259,9 +259,14 @@ export default class Presentation extends Component {
           <Heading size={3} textColor="tertiary">
             Q&A
           </Heading>
-          <Text textColor="secondary" size={1}>
+          <br />
+          <Link href="http://cn-graphql-in-2018.surge.sh">
+            http://cn-graphql-in-2018.surge.sh
+          </Link>
+          <br />
+          <Link href="https://github.com/CorwinCZ/graphql-cn-group-talk">
             https://github.com/CorwinCZ/graphql-cn-group-talk
-          </Text>
+          </Link>
         </Slide>
       </Deck>
     );

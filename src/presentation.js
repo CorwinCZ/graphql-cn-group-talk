@@ -247,6 +247,30 @@ export default class Presentation extends Component {
               <ListItem size={30}>Learn, build, test</ListItem>
             </Appear>
             <Appear>
+              <ListItem size={30}>
+                <Link
+                  href="http://graphql.org"
+                  target="_blank"
+                >{`http://graphql.org`}</Link>
+              </ListItem>
+            </Appear>
+            <Appear>
+              <ListItem size={30}>
+                <Link
+                  href="https://www.apollographql.com/docs/"
+                  target="_blank"
+                >{`https://www.apollographql.com/docs/`}</Link>
+              </ListItem>
+            </Appear>
+            <Appear>
+              <ListItem size={30}>
+                <Link
+                  href="https://github.com/chentsulin/awesome-graphql"
+                  target="_blank"
+                >{`GtiHub - Awesome GraphQL`}</Link>
+              </ListItem>
+            </Appear>
+            <Appear>
               <ListItem size={30}>Let's build something!</ListItem>
             </Appear>
             <Appear>
@@ -272,6 +296,13 @@ export default class Presentation extends Component {
             taget="_blank"
           >
             https://github.com/CorwinCZ/graphql-cn-group-talk
+          </Link>
+          <br />
+          <Link
+            href="https://github.com/CorwinCZ/graphql-prisma-interviewme-test"
+            taget="_blank"
+          >
+            https://github.com/CorwinCZ/graphql-prisma-interviewme-test
           </Link>
         </Slide>
       </Deck>
